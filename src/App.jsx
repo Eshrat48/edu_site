@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection'
 import Footer from './components/Footer'
 import StatsSection from './components/StatsSection'
 import CategoriesSection from './components/CategoriesSection'
+import FeaturedCoursesSection from './components/FeaturedCoursesSection'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeroSection />
       <StatsSection />
       <CategoriesSection />
+      <FeaturedCoursesSection />
       <Footer />
     </>
   );
