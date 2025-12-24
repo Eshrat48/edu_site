@@ -1,11 +1,12 @@
 import './App.css'
 import Navbar from './components/Navbar'
+import HeroSection from './components/HeroSection'
 
 function App() {
   return (
     <>
       <Navbar />
-      {/* Main content will go here */}
+      <HeroSection />
     </>
   );
 }
