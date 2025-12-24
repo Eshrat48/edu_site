@@ -6,8 +6,8 @@ const Navbar = () => {
       <nav className="fixed top-0 left-0 w-full z-50 bg-white border-b border-blue-100 shadow-sm">
         <div className="max-w-6xl w-full mx-auto flex items-center h-20 px-6">
           {/* Logo and Brand */}
-            <div className="flex items-center min-w-[180px]">
-              <img src="/logo.jpg" alt="EduSite Logo" className="h-15 w-15 object-contain" />
+            <div className="flex items-center gap-0.5 min-w-[180px]">
+              <img src="/logo.jpg" alt="EduSite Logo" className="h-10 w-10 object-contain" />
               <span className="font-black text-3xl text-blue-700 tracking-tight font-sans animate-pulse transition-all duration-500">EduSite</span>
           </div>
           {/* Search Bar */}
