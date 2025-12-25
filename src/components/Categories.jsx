@@ -55,14 +55,14 @@ const categories = [
 
 const CategoriesSection = () => {
   return (
-    <section className="bg-[#f9f6f2] pt-16 pb-12">
+    <section className="bg-[#f9f6f2] w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] pt-16 pb-12">
       <div className="max-w-6xl w-full mx-auto px-4">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8 gap-2">
           <div className="text-left">
             <h2 className="text-3xl font-extrabold text-gray-900 mb-1">Browse Top Categories</h2>
             <p className="text-gray-500 text-base">Explore our most popular learning paths</p>
           </div>
-          <a href="#" className="text-blue-600 font-semibold flex items-center gap-1 hover:underline mt-2 md:mt-0">View All <span>&rarr;</span></a>
+          <button className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-bold px-5 py-2 rounded-lg shadow hover:from-blue-600 hover:to-cyan-600 transition mt-2 md:mt-0">All Categories</button>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {categories.map((cat) => (

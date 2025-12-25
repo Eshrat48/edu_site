@@ -48,6 +48,9 @@ const FeaturedCoursesSection = () => {
               <div className="relative">
                 <img src={course.image} alt={course.title} className="w-full h-48 object-cover" />
                 <span className="absolute top-4 left-4 bg-white text-xs font-bold px-3 py-1 rounded shadow text-gray-700">{course.category}</span>
+                {course.price === "Free" && (
+                  <span className="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded shadow">Free</span>
+                )}
               </div>
               <div className="p-6 flex-1 flex flex-col justify-between">
                 <div className="flex items-center justify-between mb-2">

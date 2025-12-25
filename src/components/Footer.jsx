@@ -4,11 +4,11 @@ const Footer = () => {
   return (
     <footer className="bg-[#181C23] text-gray-300 pt-12 pb-4 mt-16 rounded-t-xl">
       <div className="max-w-6xl w-full mx-auto flex flex-col md:flex-row justify-between gap-8 px-4">
-        {/* Left: Logo and Description */}
+        {/* Logo and Description */}
         <div className="flex-1 min-w-[220px] mb-8 md:mb-0">
           <div className="flex items-center gap-2 mb-3">
-            <img src="/logo.jpg" alt="EduSite Logo" className="h-7 w-7" />
-            <span className="font-bold text-lg text-white">EduSite</span>
+            <img src="/logo.jpg" alt="EduX Logo" className="h-7 w-7" />
+            <span className="font-bold text-lg text-white">EduX</span>
           </div>
           <p className="text-gray-400 text-sm mb-4">Empowering learners globally with accessible, high-quality education. Join our community today.</p>
           <div className="flex gap-4 text-xl mt-2">

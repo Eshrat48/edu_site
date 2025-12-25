@@ -1,16 +1,42 @@
-# React + Vite
+# EduX – Education Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive education website landing page built with React and Tailwind CSS. It follows a clean, modern design and includes all the required sections for an Academy LMS-style site.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Modern, responsive layout for web and mobile
+- Component-based structure (Navbar, Hero, Categories, Courses, Stats, Testimonials, CTA, Blog, Footer, etc.)
+- Course Listing and Course Detail pages (UI only, no backend)
+- Reusable Navbar and Footer components
+- All buttons except "Courses" do not navigate (as required)
+- Accessibility best practices (semantic HTML, alt text)
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Install dependencies:**
+	```
+	npm install
+	```
+2. **Run the development server:**
+	```
+	npm run dev
+	```
+3. **Build for production:**
+	```
+	npm run build
+	```
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/components/` – All reusable UI components
+- `src/pages/` – Main pages (Course Listing, Course Detail)
+- `public/` – Images
+- `App.jsx` – Main app layout and routing logic
+
+## Project Structure
+
+- **Live Site:** https://github.com/Eshrat48/edu_site.git
+
+- **Repository:** 
+
+
