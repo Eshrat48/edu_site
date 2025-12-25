@@ -32,7 +32,7 @@ const courses = [
 
 const CourseListingPage = ({ onViewDetails }) => {
   return (
-    <main className="bg-[#f9f6f2] min-h-screen py-16">
+    <main className="bg-[#f9f6f2] w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] min-h-screen py-16">
       <div className="max-w-6xl w-full mx-auto px-4 flex flex-col md:flex-row gap-8">
         {/* Sidebar */}
         <aside className="w-full md:w-64 bg-white rounded-2xl shadow-md p-6 mb-8 md:mb-0">
