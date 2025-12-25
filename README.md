@@ -37,6 +37,6 @@ This is a responsive education website landing page built with React and Tailwin
 
 - **Live Site:** https://github.com/Eshrat48/edu_site.git
 
-- **Repository:** 
+- **Repository:** https://edu-site-eight.vercel.app/
 
 
